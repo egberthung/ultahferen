@@ -4,7 +4,7 @@ import QuizResult from "../components/QuizResult.vue";
 import ClaimReward from "../components/ClaimReward.vue";
 
 const routes = [
-  { path: "/", name: "QuizApp", component: QuizApp },
+  { path: "/ultahferen", name: "QuizApp", component: QuizApp },
   { path: "/result", name: "QuizResult", component: QuizResult },
   { path: "/claim", name: "ClaimReward", component: ClaimReward },
 ];
