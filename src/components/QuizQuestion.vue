@@ -35,7 +35,7 @@
         <!-- Next Button -->
         <div v-if="isCorrectAnswer && selectedAnswer !== null" class="mt-4">
           <button @click="nextQuestion" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
-            {{ quizStore.currentQuestionIndex === totalQuestions - 1 ? "Finish Quiz" : "Next Question" }}
+            {{ quizStore.currentQuestionIndex === totalQuestions - 1 ? "Finish Quiz" : "Next" }}
           </button>
         </div>
       </div>
